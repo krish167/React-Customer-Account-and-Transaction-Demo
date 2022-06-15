@@ -1,0 +1,63 @@
+/* can import all common variable styles and responsive style here */
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #4d6ba8;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.table-style01 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-style01 td, .table-style01 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-style01 tr:nth-child(even){background-color: #f2f2f2;}
+
+.table-style01 tr:hover {background-color: #ddd; cursor: pointer;}
+
+.table-style01 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #526ca5;
+  color: white;
+}
+
+.list-style01 .listItem-style01 {
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.backIcon {
+  border: 1px solid #afbacf;
+  margin: 6px;
+  font-size: 90%;
+  padding: 6px 8px;
+  width: 96px;
+  cursor: pointer;
+  background: #dbe4f5;
+}
+
+.text-align {
+  float: left;
+}
